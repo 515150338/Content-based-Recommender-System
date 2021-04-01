@@ -30,4 +30,5 @@ def recommend(item_id, num):
     for rec in recs:
         print("Recommended: " + item(rec[1]) + " (score:" + str(rec[0]) + ")")
 
-recommend(item_id=11, num=5)
+recommend(item_id=11, num=5)应该是只针对某个item进行推荐，实际算法就用用户评分排序吧！
+
